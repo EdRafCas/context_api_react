@@ -1,9 +1,8 @@
 import React from 'react';
 import posts from "./../data/posts";
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
 
 const Blog = () => {
-    console.log(posts);
 
     return ( 
         <div>
