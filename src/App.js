@@ -40,6 +40,7 @@ const ContenedorPrincipal = styled.div `
 
 const Main = styled.main`
     font-size: ${props=> props.tema ? props.tema.fuente + "px" : '16px'};
+    text-align: ${props=> props.tema ? props.tema.alineado : 'right'};
     background: #fff;
     padding: 40px;
     border-radius: 10px;
